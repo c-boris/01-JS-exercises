@@ -1,0 +1,9 @@
+/* Style pour l'espacement des éléments du formulaire */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* Style pour les étiquettes du formulaire */
+label {
+  display: block;
+}

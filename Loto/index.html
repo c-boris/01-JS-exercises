@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loto Checker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Loto Checker</h1>
+  <form id="lotoForm">
+    <div class="form-group">
+      <label for="firstname">Prénom:</label>
+      <input type="text" id="firstname" required>
+    </div>
+
+    <div class="form-group">
+      <label for="lastname">Nom:</label>
+      <input type="text" id="lastname" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="lotoNumbers">6 Numéros du Loto (séparés par des virgules):</label>
+      <input type="text" id="lotoNumbers" required>
+    </div>
+
+    <input type="submit" value="Valider">
+  </form>
+
+  <div id="result"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
